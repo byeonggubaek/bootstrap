@@ -2,8 +2,10 @@
 > Target의 Javascript 버전은 ES2022 이다.
 > 개발 IDE는 Visual Studio Code를 사용한다.
 > 웹서버와 DB서버는 로컬에서 테스트 한다.   
+
 ## 1. 프런트앤드 
 - React 프레임워크를 이용한다.
+- Bootstrap 을 프런트앤드 프레임워크로 사용한다. 
 
 ## 2. 백앤드
 - Node.js 프레임워크를 이용한다.

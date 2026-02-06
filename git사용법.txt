@@ -12,6 +12,6 @@ git config user.email "dev@example.com"
 
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/유저명/my-monorepo.git
+git remote add origin https://github.com/유저명/당신의_원격_레포지토리.git
 git push -u origin main
 

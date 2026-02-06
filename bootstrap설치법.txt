@@ -1,17 +1,14 @@
-# 1. 기본 브랜치 main으로 설정 (git init 전)
-git config --global init.defaultBranch main
+#1. react-bootstrap (React 컴포넌트, 권장)
+npm install react-bootstrap bootstrap
 
-# 2. 새 프로젝트
-mkdir my-monorepo && cd my-monorepo
-code .
+#2. App.tsx 수정
+import 'bootstrap/dist/css/bootstrap.min.css';  // ← 여기에 추가
+import { Button } from 'react-bootstrap';       // react-bootstrap만
 
-# 3. 이제 git init → 자동 main 브랜치!
-git init  # main 브랜치 생성됨
-git config user.name "홍길동"
-git config user.email "dev@example.com"
-
-git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/유저명/당신의_원격_레포지토리.git
-git push -u origin main
-
+function App() {
+  return (
+    <div className="container mt-4">
+      <Button variant="primary">Bootstrap 동작 확인!</Button>
+    </div>
+  );
+}

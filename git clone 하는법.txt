@@ -5,6 +5,7 @@ git clone -b init --single-branch https://github.com/byeonggubaek/monorepo_npm.g
 cd 당신의_새로운_레포지토리
 # 폴더 삭제
 rm .git
+# visual code 실행 & 당신의_새로운_레포지토리폴더 열기 & 새 터미널 실행 
 
 #3. package install & 공통 모듈 빌드 & 백앤드와 프런트앤드 기동 테스트 
 # 프로젝트에서 사용하는 package들을 설치한다. 
@@ -16,8 +17,7 @@ npm run build
 cd ../..
 cd packages/backend
 npm run dev 
-# backend 실행 
-cd ../..
+# 터미널 분리 & frontend 실행 
 cd packages/frontend
 npm run dev 
 
@@ -31,7 +31,7 @@ ello ESM Frontend!
 #4. github에서 새로운 레포지토리 생성 
 github에서 당신의_새로운_레포지토리를 생성 
 
-#5. 당신의 로컬 레포지토리 생성하고 원격 레포지토리와 일치시킴 
+#5. 새터미널 & 당신의 로컬 레포지토리 생성하고 원격 레포지토리와 일치시킴 
 # 루트로 이동  
 cd ../.. 
 git init 
@@ -43,4 +43,3 @@ git remote add origin https://github.com/당신의이름/당신의_새로운_레
 git push -u origin main
 
 #6. 이제 새로운 로직을 추가한다. 
-

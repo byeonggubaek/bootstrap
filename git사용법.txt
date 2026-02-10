@@ -26,3 +26,6 @@ git push -u origin routes
 git switch main
 git pull origin main
 git merge routes
+
+#6.
+

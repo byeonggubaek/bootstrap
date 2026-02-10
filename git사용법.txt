@@ -15,3 +15,14 @@ git commit -m "Initial commit"
 git remote add origin https://github.com/유저명/당신의_원격_레포지토리.git
 git push -u origin main
 
+# 4. git branch 분기 
+git branch routes 
+git switch routes 
+git add .
+git commit -m 'routes 적용'
+git push -u origin routes
+
+#5. git merge 하기
+git switch main
+git pull origin main
+git merge routes

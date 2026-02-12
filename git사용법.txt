@@ -27,5 +27,3 @@ git switch main
 git pull origin main
 git merge routes
 
-#6.
-

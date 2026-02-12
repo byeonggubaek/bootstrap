@@ -11,7 +11,32 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+/* 사용자정의 */
+  --custom-color1: #0528F2;
+  --custom-color2: #056CF2;  
+  --custom-color3: #B4C4D9;  
+  --custom-color4: #EBEEF2;  
+  --custom-color5: #3D9DF2;      
+/* 사용자정의 */
 }
+/* 사용자정의 */
+.custom-bg1 {
+  background-color: var(--custom-color1);
+}
+.custom-bg2 {
+  background-color: var(--custom-color2);
+}
+.custom-bg3 {
+  background-color: var(--custom-color3);
+}
+.custom-bg4 {
+  background-color: var(--custom-color4);
+}
+.custom-bg5 {
+  background-color: var(--custom-color5);
+}
+/* 사용자정의 */
 
 a {
   font-weight: 500;
